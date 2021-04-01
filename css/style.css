@@ -483,13 +483,12 @@ text-transform: uppercase;
 }
 
 @media only screen and (min-width: 485px) {
-   #services {
-  top: 490%;
+ #services {
+  top: 510%;
 }
 #foot{
-    top: 750%;
-} 
-    
+    top: 800%;
+}
 }
 
 
