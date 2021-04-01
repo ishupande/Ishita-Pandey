@@ -475,7 +475,7 @@ text-transform: uppercase;
 /* Extra small devices 485 (phones, 600px and down) */
 @media only screen and (max-width: 485px) {
 #services {
-  top: 460%;
+  top: 500%;
 }
 #foot{
     top: 730%;
