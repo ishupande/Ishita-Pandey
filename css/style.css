@@ -444,7 +444,7 @@ text-transform: uppercase;
 }
 
 #nonanimation{
-     position: fixed;
+     position: absolute;
   top: 200%;
 }
 
