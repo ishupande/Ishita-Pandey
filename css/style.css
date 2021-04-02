@@ -212,6 +212,7 @@ text-transform: uppercase;
   transition: all 400ms ease-in-out;
   margin: 2rem auto;
   text-align: center;
+     color: #fff;
 }
 
 .bar {
