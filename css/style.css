@@ -444,9 +444,14 @@ text-transform: uppercase;
 }
 
 
-#about {
-  position: absolute;
+#nonanimation{
+     position: absolute;
   top: 200%;
+}
+
+
+#about {
+
   width: 100%;
     color: white;
       background-color: rgba(0,0,0,0.7);
@@ -454,22 +459,19 @@ text-transform: uppercase;
 }
 
 #services {
-  position: absolute;
-  top: 320%;
+ 
   width: 100%;
     text-align: center;
 }
 
 #work {
-  position: absolute;
-  top: 450%;
+  
   width: 100%;
     text-align: center;
 }
 
 #foot{
-     position: absolute;
-    top: 420%;
+    
     width: 100%;
       background-color: rgba(0,0,0,0.7);
 }
