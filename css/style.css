@@ -459,6 +459,13 @@ text-transform: uppercase;
     text-align: center;
 }
 
+#work {
+  position: absolute;
+  top: 450%;
+  width: 100%;
+    text-align: center;
+}
+
 #foot{
      position: absolute;
     top: 420%;
