@@ -476,33 +476,3 @@ text-transform: uppercase;
 }
 
 
-
-
-/* Extra small devices 485 (phones, 600px and down) */
-@media only screen and (max-width: 485px) {
-#services {
-  top: 510%;
-}
-#foot{
-    top: 800%;
-}
-}
-
-@media only screen and (min-width: 485px) {
- #services {
-  top: 510%;
-}
-#foot{
-    top: 800%;
-}
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
