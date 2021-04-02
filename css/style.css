@@ -6,9 +6,6 @@
     
 }
 
-body {
-  overscroll-behavior: none; 
-}
 
 a{ text-decoration: none;
      color: rgb(0,168,255);
