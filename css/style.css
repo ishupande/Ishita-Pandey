@@ -17,15 +17,15 @@ a:hover{ text-decoration: none }
 li{ text-decoration: none }
 
 p{
-    font-size:0.9rem;
     line-height: 1.6;
     font-weight: 400;
+    color: white;
 }
 
 .header{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(0,0,0,.5) ,rgba(0,0,0,.5)), url("../img/header.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.7) ,rgba(0,0,0,.7)), url("../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -39,7 +39,7 @@ p{
 .nav-item a{
     font-weight: bold;
     color: #fff;
-        font-size:1.4rem;
+        font-size:1.2rem;
 
 }
 
@@ -55,8 +55,20 @@ p{
 } 
 
 
-
-
+.sep{
+    
+    width: 100%;
+    height: 3px;
+    background-color: #c7b299;
+    color: #c7b299;
+    border: 0 none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#foot .sep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .center-div{
     width: 100%;
     height: auto;
@@ -68,14 +80,25 @@ p{
 }
 
 
-
+.button-primary {
+    display: inline-block;
+    font-size: 14.5px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+    border: 2px solid #CC9933;
+    border-radius: 5px;
+    background: #CC9933;
+    text-align: center;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
 .header-button2 a{
     border: 1px solid #fff;
     border-radius: 100px;
     margin: 0 5px;
     padding: 12px 35px;
     color: #fff;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
@@ -89,16 +112,11 @@ p{
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
-.center-div p{
-    font-size: 1.3rem;
-    padding: 10px 0 20px 0;
-    color: white;
-}
 
 
 [class*="col-"] {
     background-clip: padding-box;
-    border: 20px solid transparent;
+    border: 10px solid transparent;
 
 }
 .extra-div{
@@ -106,7 +124,9 @@ p{
     padding: 50px!important;
     border-radius: 10px;
     transition: 0.1s;
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(0,0,0,0.4);
+        
+
 }
 
 .extra-div h2{
@@ -118,9 +138,9 @@ p{
 }
 
 .extra-div:hover{
-    box-shadow: 0 0 20px rgba(0,0,0,0.9);
+    border-radius: 30px;
     border: 0;
-      background-color: rgba(255,255,255,0.8);
+      background-color: rgba(20,20,20,0.8);
 
 }
 
@@ -172,11 +192,12 @@ p{
   font-weight: 900;
 }
 .byline { 
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 4px;
   text-align: center;
   font-weight: 400;
-        margin-bottom: 30px;
+        margin: 20px 0 50px 0;
+    color: #c7b299;
 
 }
 .header-button a{
@@ -185,7 +206,6 @@ p{
     margin: 0 5px;
     padding: 12px 35px;
     color: #fff;
-    font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
     text-align: center;
@@ -202,13 +222,7 @@ p{
 text-transform: uppercase;
     margin: 20px;
 }
-.explosion-byline
-{
-    
-        font-size:1.2rem;
-    line-height: 1.6;
-    font-weight: 400;
-}
+
 
 .title-sm {
   font-size: 1.2em;
@@ -227,13 +241,11 @@ text-transform: uppercase;
 }
 
 .skill {
-  font-size: .8em;
   text-transform: uppercase;
   margin-bottom: 0.25em;
 }
 
 .speech-bubble {
-  font-size: 0.75em;
   line-height: 2em;
   position: absolute;
   top: -2.7em;
@@ -244,18 +256,20 @@ text-transform: uppercase;
 }
 
 
-.photo,
-.fluent {
-  left: calc(75% - 1.5em);
+.javasc{
+  left: calc(85% - 1.5em);
 }
 
-.sketch,
+.seo {
+  left: calc(85% - 1.5em);
+}
+.htmlcss,
 .illustrator {
   left: calc(90% - 1.5em);
 }
 
-.indesign {
-  left: calc(85% - 1.5em);
+.angular {
+  left: calc(65% - 1.5em);
 }
 
 .speech-bubble:after {
@@ -280,44 +294,44 @@ text-transform: uppercase;
   border-radius: 0.3em;
 }
 
-.sk, .sketch {
-  background: #fcd9d5;
+.hc, .htmlcss {
+  background: #aaaaaa;
 }
 
-.sketch:after {
-  border-top-color: #fcd9d5;
+.htmlcss:after {
+  border-top-color: #aaaaaa;
 }
 
-.ph, .photo {
-  background: #fbc9c4;
+.jj, .javasc {
+  background: #888888;
 }
 
-.photo:after {
-  border-top-color: #fbc9c4;
+.javasc:after {
+  border-top-color: #888888;
 }
 
 .il, .illustrator {
-  background: #f9b3ac;
+  background: #666666;
 }
 
 .illustrator:after {
-  border-top-color: #f9b3ac;
+  border-top-color: #666666;
 }
 
-.in, .indesign {
-  background: #f89d94;
+.ag, .angular {
+  background: #444444;
 }
 
-.indesign:after {
-  border-top-color: #f89d94;
+.angular:after {
+  border-top-color: #444444;
 }
 
-.fl, .fluent {
-  background: #f6877c;
+.se, .seo {
+  background: #333333;
 }
 
-.fluent:after {
-  border-top-color: #f6877c;
+.seo:after {
+  border-top-color: #333333;
 }
 
 
@@ -327,8 +341,8 @@ text-transform: uppercase;
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  max-width: 600px;
-  margin: 0 auto;
+width: 100%;  margin: 0 auto;
+    color: #c7b299;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -336,7 +350,7 @@ text-transform: uppercase;
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #f6877c;
+    background-color: #c7b299;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -358,7 +372,7 @@ text-transform: uppercase;
   width: 25px;
   height: 25px;
   right: -13px;
-  background-color: #f6877c;
+  background-color: #c7b299;
   border: 4px solid #fff;
   top: 15px;
   border-radius: 50%;
@@ -384,9 +398,9 @@ text-transform: uppercase;
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f6877c;
+  border: medium solid #c7b299;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f6877c;
+  border-color: transparent transparent transparent #252525;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -398,9 +412,9 @@ text-transform: uppercase;
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f6877c;
+  border: medium solid #c7b299;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f6877c transparent transparent;
+  border-color: transparent #252525 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -411,7 +425,7 @@ text-transform: uppercase;
 /* The actual content */
 .timecontent {
   padding: 20px 30px;
-  background-color: #f6877c;
+    background-color: rgba(0,0,0,0.4);
   position: relative;
   border-radius: 6px;
 }
@@ -435,7 +449,7 @@ text-transform: uppercase;
   left: 60px;
   border: medium solid blue;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #CC9933 transparent transparent;
+  border-color: transparent #c7b299 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
@@ -449,9 +463,43 @@ text-transform: uppercase;
   }
 }
 
+
+
+.contact{padding:0 15px}@media (min-width: 50em){.contact{margin-bottom:80px}}.contact ol,.contact li{margin:0;padding:0;list-style:none}.contact ol:after,.contact li:after{content:"";display:table;clear:both}.contact .element.text{width:100%;margin-bottom:11px}@media (min-width: 50em){.contact .element.text{width:49.1525423729%;float:left;margin-bottom:1.6949152542%}.contact .element.text:nth-child(2n+1){margin-left:0;margin-right:-100%;clear:both;margin-left:0}.contact .element.text:nth-child(2n+2){margin-left:50.8474576271%;margin-right:-100%;clear:none}}.contact textarea{min-height:108px;margin-bottom:1.6949152542%}.contact .buttons{text-align:center}.contact input[type='text'].highlight,.contact input[type='email'].highlight,.contact textarea.highlight{border:1px solid red}.contact .button-submit{padding:9px 34px 7px;    color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;}.processing{width:100%;text-align:center}input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+    color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    outline: none;
+    padding: 10px;
+}textarea {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+    color: #fff;
+    border: 1px solid #6d6256;
+    background-color: rgba(0,0,0,0.4);
+    font-size: 17px;
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
 #nonanimation{
      position: absolute;
-  top: 200%;
+  top: 180%;
+    width: 100%;
 }
 
 
@@ -459,7 +507,6 @@ text-transform: uppercase;
 
   width: 100%;
     color: white;
-    display: flex;
 }
 
 #services {
@@ -477,7 +524,13 @@ text-transform: uppercase;
 #foot{
     
     width: 100%;
-      background-color: rgba(0,0,0,0.7);
+}
+section{
+    
+       width: 100%;
+    margin-top: 90px;
+        margin-bottom: 90px;
+
 }
 
 
