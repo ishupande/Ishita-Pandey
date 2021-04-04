@@ -34,7 +34,16 @@
                 'opacity'     : [1, 0]
               }
             ]
-          } , {
+          } ,  {
+            'nowrapper' : '#noanimation',
+            'duration' : '500%',
+            'animations' :  [
+              {
+                'selector'    : '#about',
+                'opacity'     : 1
+              } 
+            ]
+          }, {
             'duration' : '100%',
             'animations' :  []
           }
