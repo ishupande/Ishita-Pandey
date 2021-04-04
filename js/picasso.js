@@ -44,7 +44,7 @@
               } 
             ]
           }, {
-            'duration' : '500%',
+            'duration' : '600%',
             'animations' :  []
           }
         ]
