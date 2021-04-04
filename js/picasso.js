@@ -39,7 +39,7 @@
             'duration' : '500%',
             'animations' :  [
               {
-                'selector'    : '#about',
+                'selector'    : '#noanimation',
                 'opacity'     : 1
               } 
             ]
