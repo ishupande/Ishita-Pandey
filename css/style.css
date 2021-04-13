@@ -115,21 +115,15 @@ p{
 
 
 
-[class*="col-"] {
-    background-clip: padding-box;
-    border: 10px solid transparent;
-
-}
 .extra-div{
        padding: 20px!important;
     border-radius: 10px;
     transition: 0.1s;
     background-color: rgba(0,0,0,0.4);
     border: 1px solid #6d6256;
-    max-width: 80%;
     margin: auto;
     margin-bottom: 40px;
-        
+        width: 95%;
 
 }
 
