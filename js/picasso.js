@@ -36,7 +36,7 @@
             ]
           } ,  {
             'nowrapper' : '#noanimation',
-            'duration' : '590%',
+            'duration' : '575%',
             'animations' :  [
               {
                 'selector'    : '#noanimation',
